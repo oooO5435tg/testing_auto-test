@@ -1,6 +1,6 @@
 describe('Auth Test',() => {
     it('Login fail test',() => {
-        cy.fixture('Authorization').then(data => {
+        cy.fixture('Total').then(data => {
             cy.log('Переход на страницу авторизации')
             cy.visit(data.login_url)
             cy.log('Ввод существующего логина')

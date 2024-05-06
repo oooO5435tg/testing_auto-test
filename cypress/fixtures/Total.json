@@ -1,0 +1,19 @@
+{
+    "login_url": "https://dev.profteam.su/login",
+    "login_Student": "testerStudent",
+    "login_Employer": "testerEmployer",
+    "password": "Password1",
+    "none_existent_login_Student": "testerOrmal",
+    "none_existent_password_Student": "Password",
+
+    "job_name": "Глава отдела генерации пыток для студентов",
+    "requirements": "ненавидеть студентов, быть креативным",
+    "responsibilities": "придумывать новые идеи пыток",
+    "start_date": "2024-06-01",
+    "end_date": "2024-08-01",
+
+    "vacancy_search": "программист",
+    "vacancy_search_fail": "123",
+    "internship_search": "123",
+    "internship_search_fail": "программист"
+}

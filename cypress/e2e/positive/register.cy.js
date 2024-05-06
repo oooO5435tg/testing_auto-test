@@ -11,7 +11,7 @@ describe('Register Test',() => {
             cy.get(':nth-child(3) > .form-control--medium > .form-input--password').type(data.password_register)
             cy.log('Ввод пароля')
             cy.get(':nth-child(4) > .form-control--medium > .form-input--password').type(data.password_again_register)
-            cy.log('Клик по кнопке "Войти')
+            cy.log('Клик по кнопке Войти')
             cy.get(':nth-child(4) > .button').click()
 
             cy.log('Ввод фамилии')
@@ -20,7 +20,7 @@ describe('Register Test',() => {
             cy.get(':nth-child(2) > .form-control--medium > .form-input--text').type(data.name_register)
             cy.log('Ввод отчества')
             cy.get(':nth-child(3) > .form-control--medium > .form-input--text').type(data.patronymic_register)
-            cy.log('Клик по кнопке "Войти')
+            cy.log('Клик по кнопке Войти')
             cy.get(':nth-child(3) > .button').click()
         })
     })

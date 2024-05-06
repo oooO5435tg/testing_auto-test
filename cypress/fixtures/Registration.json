@@ -9,6 +9,6 @@
     "patronymic_register": "Карасевич",
     
     "login_fail_register": "testero",
-    "email_fail_register": "testerO3@gmail.com",
-    "surname_fail_register": "Лососев3"
+    "surname_fail_register": "Лососев3",
+    "password_again_fail_register": "passQWEasd12"
 }
