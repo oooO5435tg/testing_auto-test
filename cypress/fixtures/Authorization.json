@@ -1,0 +1,11 @@
+{
+    "login_url": "https://dev.profteam.su/login",
+    "login_Student": "testerStudent",
+    "login_Employer": "testerEmployer",
+    "none_existent_password_Student": "Password",
+    "password": "Password1",
+
+    "job_name": "Глава отдела генерации пыток для студентов",
+    "requirements": "ненавидеть студентов, быть креативным",
+    "responsibilities": "придумывать новые идеи пыток"
+}
