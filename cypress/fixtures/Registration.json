@@ -1,14 +1,23 @@
 {
     "register_url": "https://dev.profteam.su/registration",
-    "login_register": "testerO",
-    "email_register": "testerO@gmail.com",
+    "login_register": "teste",
+    "email_register": "teste@gmail.com",
     "password_register": "passQWEasd123",
     "password_again_register": "passQWEasd123",
     "surname_register": "Лососев",
     "name_register": "Семга",
     "patronymic_register": "Карасевич",
     
-    "login_fail_register": "testero",
-    "surname_fail_register": "Лососев3",
-    "password_again_fail_register": "passQWEasd12"
+    "password_inv_num_char_register": "asdQ1",
+    "password_again_inv_num_char_register": "asdQ1",
+    "login_cyrillic_register": "бигсистер",
+    "login_exist_register": "testerStudent",
+    "login_include_number_register": "iccffkc3",
+    "password_include_space_register": "odj wSF3",
+    "password_again_include_space_register": "odj wSF3",
+    "password_no_number_register": "idfjneKFJDK",
+    "password_again_no_number_register": "idfjneKFJDK",
+    "password_one_registr_register": "icdjn356",
+    "password_again_one_registr_register": "icdjn356",
+    "password_again_fail_register": "pasQEad123"
 }
