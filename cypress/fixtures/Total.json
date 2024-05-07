@@ -6,6 +6,7 @@
     "none_existent_password_Student": "Password",
 
     "job_name": "Глава отдела генерации пыток для студентов",
+    "job_name_fail": "5*5=?",
     "requirements": "ненавидеть студентов, быть креативным",
     "responsibilities": "придумывать новые идеи пыток",
     "start_date": "2024-06-01",
@@ -14,5 +15,7 @@
     "vacancy_search": "программист",
     "vacancy_search_fail": "123",
     "internship_search": "123",
-    "internship_search_fail": "программист"
+    "internship_search_fail": "программист",
+
+    "surname_edit": "Макакис"
 }

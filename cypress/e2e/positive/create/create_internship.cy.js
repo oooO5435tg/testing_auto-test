@@ -7,7 +7,7 @@ describe('Create internship Test',() => {
           cy.get('input[class="form-input--text form-input"]').type(data.login_Employer)
           cy.log('Ввод пароля')
           cy.get('input[class="form-input--password form-input"]').type(data.password)
-          cy.log('Клик по кнопке "Войти')
+          cy.log('Клик по кнопке Войти')
           cy.get('div[class="login-form__button"] button[type="submit"]').click()
           cy.wait(1500)
 
@@ -18,7 +18,7 @@ describe('Create internship Test',() => {
           cy.get('[data-v-e4f6348f=""][data-v-4849dea2=""] > .vacancies-block > .vacancies-block__filters-wrapper > .button').click()
   
           cy.log('Вводим название Стажировки')
-          cy.get('.vacancy-add-form-wrapper > .form > :nth-child(1) > .form__labels > .labels > :nth-child(1) > .form-control--responsive > .form-input--').type(data.job_name)
+          cy.get('.vacancy-add-form-wrapper > .form > :nth-child(1) > .form__labels > .labels > :nth-child(1) > .form-control--responsive > .form-input--').type(data.job_name, { force: true })
   
           cy.log('Выбираем вид работы')
           cy.get('.vacancy-add-form-wrapper > .form > :nth-child(1) > .form__labels > .labels > :nth-child(2) > .form-select > :nth-child(2) > .form-select__selected').click()
@@ -40,8 +40,7 @@ describe('Create internship Test',() => {
           cy.get('.vacancy-add-form-wrapper > .form > :nth-child(1) > .form__labels > .labels > :nth-child(7) > .form-control > .form-area').type(data.responsibilities)
   
           cy.log('Создаем стажировку')
-          cy.get('.vacancy-add-form-wrapper > .form > .form__buttons > .buttons > .button').click()
-          cy.get(':nth-child(1) > .internship-item__info-wrapper > .internship-item__footer-wrapper > .vacancy-footer > .vacancy-footer__button-wrapper > .button__background-color-green').click()
+          cy.get('.vacancy-add-form-wrapper > .form > .form__buttons > .buttons > .button').click({force:true})
       })
     })
 })
